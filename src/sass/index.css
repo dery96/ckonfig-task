@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box; }
+
+.right {
+  text-align: right; }
+
+.app-container {
+  text-align: left; }
+  .app-container .main {
+    padding-bottom: 15px; }
+    .app-container .main .title {
+      color: #000000;
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-top: 10px; }
+    .app-container .main .title--strong {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 20px; }
+    .app-container .main .btn {
+      width: 135px;
+      height: 40px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 0;
+      background-color: #dfdfdf;
+      color: #2b2b2b;
+      outline: 1px solid #fafafa;
+      border: 0;
+      font-weight: 500; }
+      .app-container .main .btn:focus, .app-container .main .btn:active, .app-container .main .btn:focus:active, .app-container .main .btn:visited, .app-container .main .btn:checked {
+        transform: none;
+        box-shadow: none; }
+    .app-container .main .btn--color {
+      width: 40px;
+      height: 40px; }
+    .app-container .main .btn--active-color {
+      border: 2px solid #2a2a2a; }
+    .app-container .main .btn--active {
+      background-color: #2a2a2a;
+      color: #e5e3e7; }
+  .app-container .summary {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #000000;
+    color: white; }
+    .app-container .summary span.title {
+      width: 190px;
+      margin: 30px auto 20px; }
+    .app-container .summary .preview,
+    .app-container .summary .box-container {
+      width: 190px; }
+    .app-container .summary .preview {
+      margin: 0 auto 30px;
+      height: 130px;
+      background-color: white;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .app-container .summary .box-container .box {
+      display: flex;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      justify-content: space-between; }
+      .app-container .summary .box-container .box:last-child {
+        margin-top: 18px;
+        margin-bottom: 30px; }
