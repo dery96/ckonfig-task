@@ -11,9 +11,7 @@
     "react-ionicons": "^2.1.6",
     "react-localization": "^1.0.7",
     "react-scripts": "1.1.1",
-    "reactstrap": "^5.0.0",
-    "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.79.1"
+    "reactstrap": "^5.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
